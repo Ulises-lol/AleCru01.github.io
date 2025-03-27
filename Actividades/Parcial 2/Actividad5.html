@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Unidad 02 / actividad 5</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="author" content="Martes 10 de marzo del 2025">
+    <meta name="description" content="Actividad">
+    <style>
+        body {
+            font-family: monospace;
+        }
+        a{ 
+            text-decoration: none;
+            color: gray;
+            text-transform: uppercase;
+        }
+        a:hover{
+            color: white;
+            background-color: orangered;
+        }
+        ul{list-style: none;}
+        ul li ul{visibility: hidden; display: none; position: relative;}
+        ul li:hover > ul, ul li ul:hover{visibility: visible; display: block;}
+        li{display: block; float: left; position: relative;}
+        /* Reglas extra */
+        ul{margin: 0; padding-left: 0; border: 1px gray solid;}
+        li{padding: 0.5rem; min-width: 5rem; min-height: 1.5rem;}
+        li:hover{color: white; background-color: orangered;}
+        ul li ul{ margin-top: 1rem; left: 0;border-top: 2px orangered solid; }
+        
+    </style>
+</head>
+<body>
+    <h1> Unidad 2 | Actividad 05:: Tema(menú)</h1>
+    <h2>Menú principal</h2>
+    <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">UPSLP</a>
+            <ul>
+                <li><a href="#">Nuestra Universidad</a></li>
+                <li><a href="#">Modelo académico</a></li>
+                <li><a href="#">Directorio</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Conocenos</a>
+            <ul>
+                <li><a href="#">Centro y Laboratorio</a></li>
+                <li><a href="#">Extension Universitaria</a></li>
+                <li><a href="#">Cultura y deportes</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Oferta Educativa</a>
+            <ul>
+                <li><a href="#">Licenciatura en Administración</a></li>
+                <li><a href="#">Ingeniería en manufactura avanzada</a></li>
+                <li><a href="#">Ingeniería en tecnologías de la información e innovación digital</a></li>
+                <li><a href="#">Licenciatura en negocios y mercadotecnia</a></li>
+                <li><a href="#">Licenciatura en ingeniería industrial</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Egresados</a></li>
+        <li><a href="#">Bolsa de trabajo</a></li>
+    </ul>
+    
+</body>
+</html>

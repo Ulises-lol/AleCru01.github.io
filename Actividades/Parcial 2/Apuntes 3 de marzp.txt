@@ -1,0 +1,2 @@
+CSS es una forma de dar estilo a una pagina web. Permiete definir yestablecer el diseño visual e interfaces. 
+Actualmente estamos en la 3ra versión. <Cascading Styyle Sheets" que como quien dice 

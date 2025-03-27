@@ -1,0 +1,15 @@
+estilo en linea: "Esta en una sola etiqueta"
+
+Estilo embebido: "Esta en el body y se aplica para todas las etiquetas del body
+
+Estilo externo: "Esta afuera del HTML y esta en un archivo CSS aparte enlazado por la etiqueta Link
+
+Estilo por la etiqueta <style> = 
+
+Regla CSS: 
+selector{
+propiedad: Valor; 
+}
+
+a tiene proiedades como: "text-decoration: none" que nos dice que no se subrayara el texto. 
+target: nos dice donde nos va a abrir la href
