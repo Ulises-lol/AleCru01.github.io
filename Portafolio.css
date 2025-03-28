@@ -1,0 +1,17 @@
+.Contenedor-Central{
+    background-color: gray;
+    border-radius: 5%;
+    width: 50%;
+    height: 60%;
+    position: absolute;
+    margin-left: 22%;
+    margin-bottom: 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    text-align: center;
+}
