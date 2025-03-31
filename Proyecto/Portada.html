@@ -26,7 +26,9 @@
           font-size: 3.5rem;
         }
       }
-
+      a{
+        color: rgb(0, 0, 0);
+      }
       /* Estilo para la imagen de fondo */
       .bg-cover {
         background-image: url('Fondo.jpg'); /* Ruta relativa a la misma carpeta */
@@ -60,8 +62,18 @@
       }
 
       .nav-masthead .active {
-        color: #fff;
+        color: #000000;
         border-bottom-color: #fff;
+      }
+      .btn:hover{
+        background-color: yellow;
+        color: black;
+      }
+      .btn{
+        font-family: "Luckiest Guy", cursive;
+        font-weight: 400;
+         font-style: normal;
+         font-size: 25px;
       }
   </style>
 
@@ -73,22 +85,23 @@
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="mb-auto">
       <div>
-        <h3 class="float-md-start mb-0"><a href="Portada.html">Cover</a></h3>
+        <h3 class="float-md-start mb-0"><a href="Portada.html">Inicio</a></h3>
         <nav class="nav nav-masthead justify-content-center float-md-end">
           <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
-          <a class="nav-link fw-bold py-1 px-0" href="#">Referencia</a>
-          <a class="nav-link fw-bold py-1 px-0" href="#">Contacto</a>
+          <a class="nav-link fw-bold py-1 px-0" href="Paginas/Referencias.html">Referencia</a>
+          <a class="nav-link fw-bold py-1 px-0" href="Paginas/contacto.html">Contacto</a>
         </nav>
       </div>
     </header>
 
     <main class="px-3">
-      <h1>Bob Esponja </h1>
+      <h1>Bob Esponja
+      </h1>
       <p class="lead">Bob Esponja es una serie animada que sigue las divertidas aventuras de una esponja marina
         optimista y trabajadora, junto a sus excéntricos amigos, en el vibrante y surrealista mundo submarino de Fondo
         de Bikini. ¡Un clásico lleno de humor y creatividad!</p>
       <p class="lead">
-        <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Learn more</a>
+        <a href="#" class="btn btn-lg btn-light ">Pagina Principal</a>
       </p>
     </main>
 

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .integrante-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap; /* Permite que los integrantes se envuelvan si no caben */
+        }
+        .integrante {
+            display: flex;
+            align-items: center;
+            margin: 20px;
+        }
+        .integrante svg {
+            width: 140px;
+            height: auto;
+        }
+        .integrante-info {
+            margin-left: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark" aria-label="Sixth navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../Portada.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample06" aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample06">
+            <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contenido</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true">Referencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" aria-expanded="true">Contacto</a>
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+    <div class="container">
+        <h1 class="text-center my-4">Referencias</h1>
+        <div class="integrante-container">
+            <div class="integrante">
+                <img src="../Imagenes/Boos.png"  style="height: 200px; width: 200px; border-radius: 5%;">
+                <div class="integrante-info">
+                    <h2>Bootstrap</h2>
+                    
+                </div>
+            </div>
+            <div class="integrante">
+                <img src="../Imagenes/google.png"  style="height: 200px; width: 200px; border-radius: 5%;">
+                <div class="integrante-info">
+                    <h2>Google fonts</h2>
+                    
+                </div>
+            </div>
+            <div class="integrante">
+                <img src="../Imagenes/wiki.png"  style="height: 200px; width: 200px; border-radius: 5%;">
+                <div class="integrante-info">
+                    <h2>Wikipedia</h2>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Recursos/bootstrap.min.js"></script>
+</body>
+</html>
