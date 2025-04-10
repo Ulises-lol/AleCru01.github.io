@@ -1,4 +1,4 @@
-.Contenedor-Central{
+.Contenedor-Central {
     background-color: #BFBFBF;
     border-radius: 5%;
     width: 50%;
@@ -8,21 +8,51 @@
     margin-bottom: 10%;
     padding-top: 5%;
     padding-left: 5%;
+    border-right: 20px solid black;
 }
-body{
-    background-color: rgb(255, 255, 255);
+
+body {
+    background-color: rgb(46, 47, 83);
 }
-h1{
+
+h1 {
     text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-details{
+
+details {
     background-color: white;
     border-radius: 2.5%;
     width: 60%;
+
 }
 
-details > summary:first-of-type {
- border-radius: 10px;
- background-color: green;
- padding: 2%;
+details>summary{
+    border-radius: 10px;
+    background-color: green;
+    padding: 2%;
+}
+
+summary {
+    color: white;
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+    
+}
+
+a {
+    text-decoration: none;
+    color: green;
+
+}
+
+.proyecto {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.proyecto:hover{
+    color: black;
 }
