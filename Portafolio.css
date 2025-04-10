@@ -41,6 +41,9 @@ summary {
     padding: 0.5em;
     
 }
+summary:hover{
+    background-color: rgb(34, 82, 34);
+}
 
 a {
     text-decoration: none;
